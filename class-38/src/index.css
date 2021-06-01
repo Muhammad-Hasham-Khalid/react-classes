@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+}
+
+.AddTodo {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.AddTodo input {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.AddTodo button {
+  border: none;
+  background-color: steelblue;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Todo {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  background-color: cornflowerblue;
+  margin: 2px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Todo__deleteButton {
+  border: none;
+  color: white;
+  background-color: red;
+  padding: 5px;
+  cursor: pointer;
+}
